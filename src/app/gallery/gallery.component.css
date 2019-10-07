@@ -1,0 +1,30 @@
+.gallery {
+    position: relative;
+    flex: 1;
+    height: 100%;
+}
+
+.images-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.image-summary {
+    padding: 10px;
+    max-width: 300px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-summary img {
+    height: 250px;
+}
+
+.image-summary .image-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

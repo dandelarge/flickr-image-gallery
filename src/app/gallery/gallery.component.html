@@ -1,0 +1,10 @@
+<h1>Gallery</h1>
+
+<div class="gallery" style='width: 100%'>
+    <cdk-virtual-scroll-viewport style="height: 700px" itemSize="50">
+        <div *cdkVirtualFor="let entry of entries" class="image-summary">
+            <img [src]="entry.image">
+            <h3 class="image-titile">{{entry.index}} - {{entry.title}}</h3>
+        </div>
+    </cdk-virtual-scroll-viewport>
+</div>
