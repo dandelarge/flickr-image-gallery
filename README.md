@@ -23,3 +23,5 @@ I created a lazy loading directive that uses the browser's intersection observer
 - Because I ran out of time, also, there was not much time to make the grid prettier.
 
 - **About Interfaces and Classes**: I deally I would have use typescript interfaces to define the structure of the response and requests I want in the application. nevertheless because I am a slow writter, I started by testing unsing "any" for everything as a type. I was thinking on cleaning this code afterwards, but then again, I ran out of time.
+
+- Originally I tried to get the images from reddit using oauth, but the images are well protected by CORS policies and working around it would have taken way too much time. so I fall back to Flickr.
